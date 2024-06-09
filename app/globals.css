@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+  
+@layer base {
+  :root {
+    --radius: 8px;
+    /* ... */
+    --swiper-pagination-color: #057EBB;
+    --swiper-pagination-bullet-size: 25px;
+    --swiper-pagination-bullet-width: 25px;
+    --swiper-pagination-bullet-height: 25px;
+    --swiper-pagination-bullet-inactive-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 0.5;
+    --swiper-pagination-bullet-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 4px;
+    --swiper-pagination-bullet-vertical-gap: 6px;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+  }
+}
+
+.swiper-pagination-bullet {
+  padding-top: 1px !important;
+}
