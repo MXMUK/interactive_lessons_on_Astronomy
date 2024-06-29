@@ -37,7 +37,7 @@ const TermsOfUsePage = () => {
           <h2 className="font-bold text-xl">4. Disclaimers and Limitation of Liability</h2>
 
           <p className=" mt-3">
-            Interactive Lessons of Astronomy is provided "as is." We are not liable for any damages from your use of the platform.
+            Interactive Lessons of Astronomy is provided as is. We are not liable for any damages from your use of the platform.
           </p>
         </div>
 

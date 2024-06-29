@@ -110,7 +110,7 @@ const PolicyPage = () => {
 
           <p className="mt-3">
             It is our policy to post any changes we make to our privacy policy on this page. If we
-            make material changes to how we treat our users' personal information, we will notify
+            make material changes to how we treat our users personal information, we will notify
             you through a notice on the Interactive Astronomy Lessons home page.
           </p>
         </div>
